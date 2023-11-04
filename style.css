@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Orbitron&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.answer, .line1, .line2, .line3, .line4 {
+    display: block;
+    border: black;
+}
+
+.calculator {
+    margin: 4rem 0rem;
+    display: block;
+    text-align: center;
+}
+
+.answer {
+    display: block;
+    right: 0;
+    border: black;
+    font-size: 3rem;
+}
+
+.answer p {
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+}
+
+.calculator button {
+    background-color: #505050;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin: 0.5rem 0.5rem;
+    padding: 4px 18px;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 10rem;
+}
+
+#clear {
+    color: #1C1C1C;
+    background-color: #D4D4D2;
+}
+
+#divide, #times, #minus, #plus {
+    background-color: #FF9500;
+    text-align: center;
+}
+
