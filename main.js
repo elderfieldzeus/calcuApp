@@ -1,4 +1,3 @@
-const operator = ["+", "-", "/", "X", "="];
 let answer = document.getElementById("ans");
 let number = 0;
 let total = 0;
