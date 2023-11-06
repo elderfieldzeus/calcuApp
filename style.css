@@ -43,6 +43,14 @@ body {
     border-radius: 10rem;
 }
 
+.calculator button:hover {
+    color: gray;
+}
+
+.calculator #clear:hover {
+    color: white;
+}
+
 #clear {
     color: #1C1C1C;
     background-color: #D4D4D2;
